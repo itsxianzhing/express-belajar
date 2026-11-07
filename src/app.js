@@ -1,7 +1,9 @@
 import express from "express";
 import { apiReference } from "@scalar/express-api-reference";
 
-import userRoutes from "./routes/user.routes.js";
+import express from "express";
+
+import userRoutes from "./modules/user/user.routes.js";
 import openapi from "./config/openapi.js";
 
 const app = express();
